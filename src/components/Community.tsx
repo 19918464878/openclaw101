@@ -33,7 +33,7 @@ const itemsZh = [
   {
     icon: '📦',
     title: 'OpenClaw GitHub',
-    desc: '源代码 (145k+ ⭐) 和社区贡献',
+    desc: '源代码 (279k+ ⭐) 和社区贡献',
     link: 'https://github.com/openclaw/openclaw',
     color: 'hover:border-gray-400 hover:bg-gray-50',
   },
@@ -78,7 +78,7 @@ const itemsEn = [
   {
     icon: '📦',
     title: 'OpenClaw GitHub',
-    desc: 'Source code (145k+ ⭐) and community contributions',
+    desc: 'Source code (279k+ ⭐) and community contributions',
     link: 'https://github.com/openclaw/openclaw',
     color: 'hover:border-gray-400 hover:bg-gray-50',
   },
@@ -245,7 +245,7 @@ export default function Community({ locale, dict }: CommunityProps) {
               {/* QR Code */}
               <div className="text-center order-1 sm:order-2 shrink-0">
                 <img
-                  src="/images/video-course-qr-code.jpg"
+                  src="/video-course-qr-code.jpg"
                   alt="视频课二维码"
                   className="w-36 sm:w-44 md:w-52 rounded-xl mx-auto bg-white"
                 />

@@ -137,7 +137,7 @@ const jsonLd = {
           name: 'What can an OpenClaw assistant do?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'An OpenClaw assistant can manage email, schedule calendar events, browse the web with a real browser, write and execute code, analyze SEO data, create content, monitor websites, automate workflows, and more through its extensible skills system with 100+ community plugins.',
+            text: 'An OpenClaw assistant can manage email, schedule calendar events, browse the web with a real browser, write and execute code, analyze SEO data, create content, monitor websites, automate workflows, and more through its extensible skills system with 5494+ community plugins.',
           },
         },
         {

@@ -95,7 +95,7 @@ export const resources: Resource[] = [
   },
   {
     title: 'GitHub — openclaw/openclaw',
-    desc: '源代码、Issue 跟踪和社区贡献指南 (150k+ ⭐)',
+    desc: '源代码、Issue 跟踪和社区贡献指南 (279k+ ⭐)',
     url: 'https://github.com/openclaw/openclaw',
     source: 'GitHub',
     lang: 'en',
@@ -499,7 +499,7 @@ export const resources: Resource[] = [
   },
   {
     title: 'CNBC — From Clawdbot to OpenClaw: The AI Agent Generating Buzz and Fear',
-    desc: 'CNBC 深度报道 OpenClaw 的崛起、145k+ GitHub Stars 背后的争议与风险',
+    desc: 'CNBC 深度报道 OpenClaw 的崛起、259k+ GitHub Stars 背后的争议与风险',
     url: 'https://www.cnbc.com/2026/02/02/openclaw-open-source-ai-agent-rise-controversy-clawdbot-moltbot-moltbook.html',
     source: 'CNBC',
     lang: 'en',
@@ -3883,6 +3883,91 @@ export const resources: Resource[] = [
     tags: ['android', 'termux', 'mobile'],
   },
 
+
+  // Week of 2026-03-05
+  {
+    title: 'Adven Boost — OpenClaw Add Agent: 10 Easy Steps to Expand Your AI Workforce',
+    desc: 'Step-by-step guide to adding and configuring multiple agents in OpenClaw, covering multi-agent communication mesh, inter-agent messaging, rate limiting, and performance monitoring with pre-configured blueprints.',
+    url: 'https://advenboost.com/en/openclaw-add-agent-tutorial/',
+    source: 'advenboost.com',
+    lang: 'en',
+    category: 'deep-dive',
+    tags: ['multi-agent', 'agent configuration', 'automation', 'tutorial'],
+  },
+
+  // Week of 2026-03-04
+  {
+    title: 'heyuan110.com — OpenClaw 超详细上手教程：小白友好 + 老鸟技巧',
+    desc: '从零到精通的完整中文教程，覆盖入门部署、多智能体协作、Skills 开发，兼顾小白与进阶用户，包含 Moltbot/Clawdbot/OpenClaw 演进历史梳理。',
+    url: 'https://www.heyuan110.com/posts/ai/2026-02-12-openclaw-usage-tutorial/',
+    source: 'heyuan110.com',
+    lang: 'zh',
+    category: 'getting-started',
+    tags: ['中文教程', '小白入门', '多智能体', '进阶'],
+  },
+  {
+    title: 'CSDN — OpenClaw 从入门到进阶完整实战教程（2026 最新版）',
+    desc: '251,000 字开源中文教程，16 章正文 + 4 个附录 + 66 个实战案例 + 50 余张配图，优先推荐腾讯云等国内部署方案，覆盖基础到进阶全流程。',
+    url: 'https://blog.csdn.net/2301_81108348/article/details/158356909',
+    source: 'CSDN',
+    lang: 'zh',
+    category: 'getting-started',
+    tags: ['中文教程', '251000字', '实战案例', '腾讯云'],
+  },
+  {
+    title: 'OpenClaw Complete Tutorial 2026: Setup, Skills, Memory, and Architecture Explained',
+    desc: 'In-depth guide covering OpenClaw architecture, markdown-based memory system, skills installation, and multi-agent workflows. A must-read for developers looking to understand how OpenClaw works under the hood.',
+    url: 'https://pub.towardsai.net/openclaw-complete-guide-setup-tutorial-2026-14dd1ae6d1c2',
+    source: 'Towards AI',
+    lang: 'en',
+    category: 'deep-dive',
+    tags: ['architecture', 'memory', 'skills', '2026'],
+  },
+  {
+    title: 'OpenClaw On Windows | How to Open & Edit openclaw.json file & Restart Gateway',
+    desc: 'Step-by-step tutorial for Windows users: editing openclaw.json config, restarting the gateway, and common troubleshooting tips for ClawdBot/MoltBot setups.',
+    url: 'https://www.youtube.com/watch?v=xHiTd5ho3BA',
+    source: 'YouTube',
+    lang: 'en',
+    category: 'video',
+    tags: ['windows', 'config', 'gateway', 'setup'],
+  },
+  {
+    title: 'The Ultimate Guide to Setting Up and Using OpenClaw',
+    desc: 'Comprehensive Substack guide covering multi-agent coordination, deterministic monitoring with cron, and cost-efficient token management strategies for OpenClaw deployments.',
+    url: 'https://techie007.substack.com/p/the-ultimate-guide-to-setting-up',
+    source: 'Substack',
+    lang: 'en',
+    category: 'deep-dive',
+    tags: ['multi-agent', 'monitoring', 'deployment', 'cron'],
+  },
+  {
+    title: 'The ULTIMATE OpenClaw Setup Guide (Step-By-Step Install + Full Configuration Tutorial)',
+    desc: 'Reddit community guide with step-by-step install instructions and full configuration walkthrough for OpenClaw, linking to a companion YouTube tutorial.',
+    url: 'https://www.reddit.com/r/clawdbot/comments/1rkcwt4/the_ultimate_openclaw_setup_guide_stepbystep/',
+    source: 'Reddit r/clawdbot',
+    lang: 'en',
+    category: 'getting-started',
+    tags: ['setup', 'install', 'configuration', 'tutorial'],
+  },
+  {
+    title: 'The ULTIMATE OpenClaw Setup Guide 🦞 — r/OpenClawCentral',
+    desc: 'Real-world OpenClaw workflows, VPS deployment, XDR bot configs, multi-agent coordination, and security integration best practices from the OpenClawCentral community.',
+    url: 'https://www.reddit.com/r/OpenClawCentral/comments/1rko3mo/the_ultimate_openclaw_setup_guide/',
+    source: 'Reddit r/OpenClawCentral',
+    lang: 'en',
+    category: 'getting-started',
+    tags: ['VPS', 'multi-agent', 'security', 'deployment'],
+  },
+  {
+    title: 'Best ClawHub Skills: A Complete Guide',
+    desc: 'DataCamp guide covering the best ClawHub skills for OpenClaw (formerly Clawdbot/Moltbot), with self-hosting setup and Claude integration on Mac via WhatsApp.',
+    url: 'https://www.datacamp.com/blog/best-clawhub-skills',
+    source: 'DataCamp',
+    lang: 'en',
+    category: 'getting-started',
+    tags: ['ClawHub', 'skills', 'WhatsApp', 'Mac'],
+  },
 ];
 
 export function getResourcesByCategory(cat: ResourceCategory): Resource[] {

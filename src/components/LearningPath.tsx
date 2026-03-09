@@ -174,6 +174,32 @@ export default function LearningPath({ locale, dict }: LearningPathProps) {
             </a>
           ))}
         </div>
+
+        {/* Course CTA - Chinese only */}
+        {isZh && (
+          <div className="mt-10 sm:mt-16 reveal">
+            <a
+              href="https://xiaomo.dev/course/openclaw-ai-assistant/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block max-w-2xl mx-auto bg-gradient-to-r from-blue-600 to-cyan-500 rounded-2xl p-6 sm:p-8 text-white relative overflow-hidden group hover:shadow-xl hover:shadow-blue-500/20 transition-all duration-300"
+            >
+              <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full -translate-y-1/2 translate-x-1/2" />
+              <div className="absolute bottom-0 left-0 w-24 h-24 bg-white/10 rounded-full translate-y-1/2 -translate-x-1/2" />
+              <div className="relative z-10">
+                <div className="flex items-center gap-2 mb-3">
+                  <span className="text-2xl">🎓</span>
+                  <span className="text-xs font-semibold bg-white/20 px-2 py-1 rounded-full">实战训练营</span>
+                </div>
+                <h3 className="text-xl sm:text-2xl font-bold mb-2">AI 私人助理实战课</h3>
+                <p className="text-white/80 text-sm sm:text-base mb-4">21节视频课程，手把手带你从零部署专属 AI 助理，打通多渠道自动化工作流</p>
+                <span className="inline-flex items-center gap-2 font-semibold group-hover:gap-3 transition-all duration-300">
+                  了解详情 <span>→</span>
+                </span>
+              </div>
+            </a>
+          </div>
+        )}
       </div>
     </section>
   );
